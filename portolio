@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>Betty Crocker Recipes</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="customization.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!--Banner-->
+<a name="Home"></a>
+<img src="elements/header.jpg" id="Banner">
+
+<nav>
+<!--Navigation Links for full screen-->
+<a href="#breakfast" id="Breakfast" class="navlinks">Breakfast</a>
+<a href="#lunch" id="Lunch" class="navlinks">Lunch</a>
+<a href="#dinner" id="Dinner" class="navlinks">Dinner</a>
+<a href="#dessert" id="Dessert" class="navlinks">Dessert</a>
+<a href="#" id="navsource" class="navlinks" onclick="javascript:source()">Source</a>
+<!--Responsive Links-->
+<a href="#" id="Breakfast" class="responsivelinks" onclick='javascript:breakfast()'>Breakfast</a>
+<a href="#Lunch" id="Lunch" class="responsivelinks" onclick='javascript:lunch()'>Lunch</a>
+<a href="#" id="Dinner" class="responsivelinks" onclick='javascript:dinner()'>Dinner</a>
+<a href="#" id="Dessert" class="responsivelinks" onclick='javascript:dessert()'>Dessert</a>
+
+</nav>
+
+
+<article>
+
+<!--Information Preview for smaller sized windows-->
+
+<div id="Breakfastinfo" class="info">Creamed ham and eggs<br>Eggs Continental<br>Eggs on Corned Beef Hash</div><br>
+
+
+<div id="Lunchinfo" class="info">Tuna Cheese Bake<Br>Old Fashioned Macaroni and Cheese<br>Puffy Cheese Bake</div><br>
+
+
+<div id="Dinnerinfo" class="info">Corn Stuffed Pork Chops<br>Pot Roast in Foil<br>Flank Steak fix up</div><br>
+
+
+<div id="Dessertinfo" class="info">Toffee Bars<br>Deep Dish Apple Pie<br>Grape Jam Pie<br></div><br>
+
+<!--Recipes-->
+<!--Breakfast Recipes-->
+
+<div id="BreakfastRecipes" class="recipes">
+
+<a name="breakfast"></a>
+
+<h3>Creamed ham and eggs</h3><br>
+<h4>Ingredients</h4><br>
+3 tablespoons butter<br>
+1/8 teaspoon pepper<br>
+3 tablespoons flour<br>
+2 1/4 cups milk<br>
+1/2 teaspoon dry mustard<br>
+1 cup diced cooked ham<br>
+1/4 teaspoon salt<br>
+4 hard-cooked eggs, quartered<br>
+<br>
+Melt butter in saucepan over low heat. Blend in flour and seasonings. Cook over low heat, stirring until mixture is smooth 
+and bubbly. Remove fro heat.Stir in milk. Heat to boiling, stirring constantly. Boil and stir 1 minute. Gently stir in ham 
+and eggs; heat through.
+
+<hr>
+
+<h3>Eggs Continental</h3>
+<h4>Ingredients</h4>
+1/4 cup dry bread crumbs<br>
+1 tablespoon butter<br>
+4 hard-cooked eggs, sliced<br>
+3 slices bacon, diced<br>
+1 cup dairy sour cream<br>
+1 tablespoon milk<br>
+1 tablespoon instance minced onion<br>
+1/2 teaspoon salt<br>
+1/4 teaspoon paprika<br>
+1/8 teaspoon pepper<br>
+1/2 shredded Cheddar cheese<br>
+<br>
+Heat oven to 350 degrees. Toss bread crumbs in butter; divide among 4 buttered 10-ounce
+baking dishes. Layer egg slices over crumbs.<br>
+Fry bacon until crips; drain. Stir together bacon, sour cream, milk, onion and seasoning;
+spoon over eggs.<br> Top with cheese. Bake uncovered 10 to 15 minutes or until cheese is melted.
+
+<hr>
+
+<h3>Eggs on Corned Beef Hash</h3>
+<h4>Ingredients</h4>
+1 can (15 ounces) corned beef hash<br>
+6 eggs<br>
+salt and pepper<br>
+<br>
+Heat oven to 350 degrees. In each of the size ungreased 5 or 6 ounce baking dishes, press 
+about 1/4 cup hash against bottom and side. Break 1 egg into each dish. Season with salt and pepper.
+if desired, sprinkle each with 1 tablespoon shredded Cheddar cheese. Bake uncovered 20 to 25 minutes.<br>
+
+<br>
+<hr>
+<p id="credit">All recipes come from Betty Crocker's Cookbook
+Copyright 1969 by General Mills
+Published by Western publishing company</p>
+</div><br>
+
+
+
+<!--Lunch Recipes-->
+
+<div id="LunchRecipes" class="recipes">
+<a href="#Home" id="home">Home</a>
+<a name="lunch"></a>
+<h3>Tuna Cheese Bake</h3>
+<h4>Ingredients</h4>
+1 package (8 ounces)macaroni and Cheddar dinner
+1 can (6 1/2 ounces) tuna, drained<br>
+1 can (3 ounces) sliced mushrooms, drained<br>
+2 teaspooons chopped pimiento<br>
+1/3 cup dairy sour cream<br>
+1/4 cup broken cashews<br>
+<br>
+Prepare macaroni and Cheddar as directed on package for sauce pan method. 
+Stir in tuna, mushrooms and pimiento; heat through. Stir in sour cream. Sprinkle each serving with cashews. 
+If desired, garnish with parsley or strips of green pepper. 
+
+<hr>
+
+<h3>Old Fashioned Macaroni and Cheese</h3>
+<h4>Ingredients</h4>
+6 to 7 ounces elbow macaroni (about 2 cups)<br>
+2 tablespoons grated onion<br>
+1 teaspoon salt<br>
+1/4 teaspoon pepper<br>
+3 cups shredded process sharp american cheese(3/4 pound)<Br>
+2 cups Betty Crockers Thin white sauce<Br>
+1 tablespoon butter<br>
+<br>
+Heat oven to 375 degrees. Cook macaroni as directed on page 352. Place half the macaroni in ungreased 2-quart casserole. Sprinkle with half the onion, salt, pepper,
+and cheese; repeat. Pour white sauce over casserole. Dot with butter. Cover; bake 30 minutes. Uncover; bake 
+15 minutes longer.
+
+<hr>
+
+<h3>Puffy Cheese Bake</h3>
+<h4>Ingredients</h4>
+4 slices bread, buttered<br>
+2 eggs<br>
+1 cup light cream(20%)<Br>
+2 tablespoons butter, melted<br>
+1/2 teaspoon salt<Br>
+1/2 teaspoon dry mustard<br>
+1/4 teaspoon paprika<br>
+Dash cayenne red pepper<br>
+1 1/2 cups shredded process american cheese(about 6 ounces)<Br>
+<br>
+Heat oven to 350 degrees. Butter baking dish, 8x8x2 inches. Cut each slice of bread diagonally into 4 triangles.<br>
+Line bottom and sides of baking dish with bread triangles.(For a crown effect, place 8 triangles upright
+against sides of dish. Arrange remaining triangles on bottom of dish.)<br>
+Beat eggs slightly; add remaining ingredients and mix well. Pour mixture into baking dish. Bake
+uncovered 30 to 40 minutes.<Br>
+
+<br>
+<hr>
+
+All recipes come from Betty Crocker's Cookbook
+Copyright 1969 by General Mills
+Published by Western publishing company
+</div>
+
+<!-- Dinner Recipes-->
+<div id="DinnerRecipes" class="recipes">
+<a href="#Home" id="home">Home</a>
+<a name="dinner"></a>
+<h3>Corn Stuffed Pork Chops</h3>
+<h4>Ingredients</h4>
+1 can(7 ounces) vacuum-packed whole kernel corn with peppers<Br>
+1 cup soft bread cubes<br>
+1/4 cup finely chopped onion<br>
+1 teaspoons salt<br>
+1/2 teaspoon sage<Br>
+6 pork rib chops, 1 inch thick(with pockets cut into chops from bone side)<br>
+2 tablespoons shortening<Br>
+<Br>
+Mix corn(with liquid), bread cubes, onion, salt and sage. Stuff pork chop pockets with corn mixture.<br>
+Melt shortening in large skillet; brown chops, about 15 minutes. 
+Reduce heat; cover tightly and simmer 1 hour or until done
+
+<hr>
+
+<h3>Pot-Roast in Foil</h3>
+<h4>Ingredients</h4>
+4 pound beff chuck pot-roast<br>
+1 envelope(about 1 1/2 ounces) dry onion soup mix<br>
+1 can (10 1/2 ounces) condensed cream of mushroom soup<br>
+<br>
+Place 30x18 inch piece of heavy-duty aluminum foil in baking pan, 13x9x2 inches; place meat on foil.
+Sprinkle soup  mix over top meat and spread with cream of mushroom soup. Fold foil over meat and seal securely.
+Cook in 300 degree oven for 4 hours.
+
+<hr>
+
+<h3>Flank Steak fix up</h3>
+<h4>Ingredients</h4>
+2 pound flank steak, scored<br>
+1 clove garlic, halved<br>
+1 teaspoon salt<br>
+1/4 teaspoon pepper<br>
+4 to 6 slices bacon<br>
+1/2 cup all purpose flour<br>
+1 can(6 ounces)tomato sauce<br>
+1/2 teaspoon salt<br>
+1/8 teaspoon marjoram leaves<br>
+1 tablespoon snipped parsley<Br>
+1/2 cup finely chopped onion<br>
+<br>
+Rub steak with garlic; season with 1 teaspoon salt and the pepper. Cut meat crosswise into 4 to 6 serving pieces.
+in large skillet, partially cook bacon. Drain baco; reserve drippings in skillet. <Br>
+Place slice of bacon on each piece of meat; roll up and secure with wooden picks. Coat rolls with
+flour. Brown rolls in reserved bacon drippings over medium heat.<br>
+Stir together tomato sauce, 1/2 teaspoon slat, the marjoram leaves, parsley and onion; pour over meat. 
+Cover tightly; simmer 45 to 60 minutes or until tender.<Br>
+Place rolls on warm platter; remove wooden picks. Heat sauce to boiling, stirring constantly; pour over rolls.<br>
+
+<br>
+<hr>
+
+All recipes come from Betty Crocker's Cookbook
+Copyright 1969 by General Mills
+Published by Western publishing company
+</div>
+
+
+<!--Dessert Recipes-->
+<div id="DessertRecipes" class="recipes">
+<a name="dessert"></a>
+<a href="#Home" id="home">Home</a>
+
+<h3>Toffee Bars</h3>
+<h4>Ingredients</h4>
+1 cup butter<br>
+1 cup brown sugar<br>
+1 egg yolk<br>
+1 teaspoon vanilla<br>
+2 cups all-purpose flour<Br>
+1/4 teaspoon salt<br>
+1 bar(3.5 ounces) milk chocolate candy<br>
+1/2 cup chopped nuts<Br>
+Heat oven to 350. Grease baking pan, 13x9x2 inches. Mix thoroughly butter, sugar, egg yolk, and vanilla.
+Blend in flour and salt. Press evenly in bottom of pan. Bake 25 to 30  minutes or until very light brown.
+(Crustwill be soft.) Remove from oven; immediately place separated pieces of chocolate candy on crust.
+As soon as chocolate is oft, spread evenly. Sprinkle with nuts. While warm, cut into bars, about 2x1 1/2 inches.
+
+<hr>
+
+<h3>Deep Dish Apple Pie</h3>
+<h4>Ingredients</h4>
+1 1/2 cups sugar<br>
+1/2 cup all purpose flour<br>
+1 teaspoon nutmeg<br>
+1 teaspoon cinnamon<br>
+1/4 teaspoon salt<br>
+12 cups thinly sliced pared apples(about 10 medium)<br>
+2 tablespoons butter<br>
+Pastry for 9-inch One-crust Pie<br>
+Stir together sugar, flour, nutmeg, cinnamon and salt; mix with apples. Turn into ungreased square pan, 
+9x9x2 inches; dot with butter.<br>
+Heat oven to 425 degrees. Prepare pastry as directed except-roll into 10 inch square. Fold pastry in half; cut
+slits near center. Unfold over fruit in pan; fold edges under just inside edge of pan.<br>
+Bake 1 hour or until juice begins to bubble through slits in crust. Best served warm. 
+
+<hr>
+
+<h3>Grape Jam Pie</h3>
+<h4>Ingredients</h4>
+Pastry for 9-inch Two-crust Pie<br>
+1/4 cup water<br>
+1/4 cup lemon juice<br>
+1/4 cup cornstarch<br>
+1 jar(20 ounces grape jam)<br>
+2 tablespoons butter<br>
+<br>
+Heat oven to 425. Prepare pastry. Blend water, lemon juice and cornstarch; stir in preserves.
+Turn into pastry-lined pie pan; dot with butter. Cover with top crust which has slits cut in it.
+seal and flut. fCover edge with 2 to 3 inch strip of aluminum foil to prevent excessive browning; remove
+foil last 15 minutes of baking. Bake 35 to 45 minutes or until crust is brown.<br>
+
+<br>
+<hr>
+
+All recipes come from Betty Crocker's Cookbook
+Copyright 1969 by General Mills
+Published by Western publishing company
+</div>
+<a href="#" class="back"onclick="javascript:history.go(0)">Back</a>
+</article>
+
+<div id="source">
+All recipes come from Betty Crocker's Cookbook<br>
+Copyright 1969 by General Mills<Br>
+Published by Western publishing company<br>
+<button type="close" id="close" onclick="javascript:history.go(0)">Close</button>
+</div>
+</body>
+</html>
